@@ -357,10 +357,15 @@ margin-left: 200px;
 }
 .form_cont{
     margin-right: 6px;
+    
    
 }
 
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+}
 .grid {
     display:flex;
     flex-direction: column;
